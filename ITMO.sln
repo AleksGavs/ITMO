@@ -5,9 +5,24 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinCSharp", "WinCSharp", "{CFD5FC4B-C2FD-448D-A575-595EF49504A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1.Exercise1.WFRect", "WinCSharp\Lab1.Exercise1.WFRect\Lab1.Exercise1.WFRect.csproj", "{AF208434-9742-4850-B54F-82CAD578A5CF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF208434-9742-4850-B54F-82CAD578A5CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF208434-9742-4850-B54F-82CAD578A5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF208434-9742-4850-B54F-82CAD578A5CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF208434-9742-4850-B54F-82CAD578A5CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF208434-9742-4850-B54F-82CAD578A5CF} = {CFD5FC4B-C2FD-448D-A575-595EF49504A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F2F9F1EB-DD12-417E-AC66-3B0465A91F74}
